@@ -11,6 +11,12 @@
 		56939DC22B9CF8C600EFF44F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56939DC12B9CF8C600EFF44F /* ContentView.swift */; };
 		56939DC42B9CF8CC00EFF44F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56939DC32B9CF8CC00EFF44F /* Assets.xcassets */; };
 		56939DC72B9CF8CC00EFF44F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56939DC62B9CF8CC00EFF44F /* Preview Assets.xcassets */; };
+		56939DCE2B9DBA9A00EFF44F /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56939DCD2B9DBA9A00EFF44F /* DayView.swift */; };
+		56939DD02B9DBBE600EFF44F /* DateExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56939DCF2B9DBBE600EFF44F /* DateExtention.swift */; };
+		56939DD22B9DBD9400EFF44F /* WeekendColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56939DD12B9DBD9400EFF44F /* WeekendColor.swift */; };
+		56939DD42B9DC2AD00EFF44F /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56939DD32B9DC2AD00EFF44F /* MonthView.swift */; };
+		56FD030D2B9E29330045EB62 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD030C2B9E29330045EB62 /* DateUtils.swift */; };
+		56FD030F2B9E349E0045EB62 /* CalenderExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD030E2B9E349E0045EB62 /* CalenderExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		56939DC12B9CF8C600EFF44F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		56939DC32B9CF8CC00EFF44F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56939DC62B9CF8CC00EFF44F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56939DCD2B9DBA9A00EFF44F /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		56939DCF2B9DBBE600EFF44F /* DateExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtention.swift; sourceTree = "<group>"; };
+		56939DD12B9DBD9400EFF44F /* WeekendColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekendColor.swift; sourceTree = "<group>"; };
+		56939DD32B9DC2AD00EFF44F /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		56FD030C2B9E29330045EB62 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		56FD030E2B9E349E0045EB62 /* CalenderExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderExtention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				56939DBF2B9CF8C600EFF44F /* KalenderApp.swift */,
 				56939DC12B9CF8C600EFF44F /* ContentView.swift */,
+				56939DCD2B9DBA9A00EFF44F /* DayView.swift */,
+				56939DD32B9DC2AD00EFF44F /* MonthView.swift */,
+				56FD030C2B9E29330045EB62 /* DateUtils.swift */,
+				56939DD12B9DBD9400EFF44F /* WeekendColor.swift */,
+				56939DCF2B9DBBE600EFF44F /* DateExtention.swift */,
+				56FD030E2B9E349E0045EB62 /* CalenderExtention.swift */,
 				56939DC32B9CF8CC00EFF44F /* Assets.xcassets */,
 				56939DC52B9CF8CC00EFF44F /* Preview Content */,
 			);
@@ -138,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				56939DC22B9CF8C600EFF44F /* ContentView.swift in Sources */,
+				56939DD42B9DC2AD00EFF44F /* MonthView.swift in Sources */,
+				56939DCE2B9DBA9A00EFF44F /* DayView.swift in Sources */,
+				56939DD02B9DBBE600EFF44F /* DateExtention.swift in Sources */,
+				56FD030D2B9E29330045EB62 /* DateUtils.swift in Sources */,
+				56939DD22B9DBD9400EFF44F /* WeekendColor.swift in Sources */,
+				56FD030F2B9E349E0045EB62 /* CalenderExtention.swift in Sources */,
 				56939DC02B9CF8C600EFF44F /* KalenderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
