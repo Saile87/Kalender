@@ -18,7 +18,6 @@ struct ContentView: View {
                 VStack {
                     WeekdayHeaderView()
                         .padding(.bottom)
-                    
                     ForEach(year.getAllMonth(), id: \.self) { month in
                         MonthView(month: month)
                             .padding(.bottom, 50)
